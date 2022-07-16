@@ -1,6 +1,5 @@
 from django.contrib import admin
+from .models import Book
 
 # Register your models here.
-from .models import SampleModel
-
-admin.site.register(SampleModel)
+admin.site.register(Book)
