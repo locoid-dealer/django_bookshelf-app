@@ -135,3 +135,5 @@ except ImportError:
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = local_settings.SECRET_KEY
+
+LOGIN_REDIRECT_URL = "list-book"
